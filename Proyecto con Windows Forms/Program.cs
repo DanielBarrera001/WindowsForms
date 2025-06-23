@@ -1,42 +1,17 @@
-namespace Proyecto_con_Windows_Forms
+using Proyecto_con_Windows_Forms;
+
+namespace WinFormsApp1
 {
     internal static class Program
     {
         
-
         [STAThread]
         static void Main()
         {
-
-            // Variables de tipo numerio
-
-            string Nombre = "Daniel";
-
-            int num1 = 22; // Entero
-            uint num2 = 22; // Variable enteger siempre positivo
-            float num3 = 22.0f; // Numero decimal
-            double num4 = 22.00; // Numero decimal mas grande que float
-            decimal num5 = 22.00m; // Numero decimal mucho mayor
-            byte num6 = 255; // Llega hasta el 255
-
-            bool acceso = true; // Solo acepta true o false
-
-            DateTime fecha = DateTime.Now; //Dato de tipo fecha
-
-            const string dato = "Mi nombre es Daniel"; // Variable constante
-            //dato = dato + ", hola de nuevo"; Error a variable constante
-
-
-
-            MessageBox.Show(Nombre);
-            MessageBox.Show(num1.ToString());
-            MessageBox.Show(acceso.ToString());
-            MessageBox.Show(fecha.ToShortDateString().ToString());
-            MessageBox.Show(dato);
-
-
-            //ApplicationConfiguration.Initialize();
-            //Application.Run(new Form1()); // Ejecuta el form principal
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
         }
     }
 }

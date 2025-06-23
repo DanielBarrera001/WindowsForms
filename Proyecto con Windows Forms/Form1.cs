@@ -6,5 +6,16 @@ namespace Proyecto_con_Windows_Forms
         {
             InitializeComponent();
         }
+
+        private void Btn_Close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Btn_OK_Click(object sender, EventArgs e)
+        {
+            string textoDelTextBox = txt_Nombre.Text;
+            lbl_texto.Text = textoDelTextBox;
+        }
     }
 }
