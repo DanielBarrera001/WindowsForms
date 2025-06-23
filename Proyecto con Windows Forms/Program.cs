@@ -21,10 +21,13 @@ namespace Proyecto_con_Windows_Forms
 
             bool acceso = true; // Solo acepta true o false
 
+            DateTime fecha = DateTime.Now; //Dato de tipo fecha
+
 
             MessageBox.Show(Nombre);
             MessageBox.Show(num1.ToString());
             MessageBox.Show(acceso.ToString());
+            MessageBox.Show(fecha.ToShortDateString().ToString());
 
 
             //ApplicationConfiguration.Initialize();
