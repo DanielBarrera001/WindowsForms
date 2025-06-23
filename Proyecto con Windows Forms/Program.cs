@@ -19,9 +19,12 @@ namespace Proyecto_con_Windows_Forms
             decimal num5 = 22.00m; // Numero decimal mucho mayor
             byte num6 = 255; // Llega hasta el 255
 
+            bool acceso = true; // Solo acepta true o false
+
 
             MessageBox.Show(Nombre);
-            MessageBox.Show(num1.ToString()); 
+            MessageBox.Show(num1.ToString());
+            MessageBox.Show(acceso.ToString());
 
 
             //ApplicationConfiguration.Initialize();
