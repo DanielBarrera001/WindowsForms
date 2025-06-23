@@ -8,11 +8,20 @@ namespace Proyecto_con_Windows_Forms
         static void Main()
         {
 
-            // Variables y los tipos de datos
+            // Variables de tipo numerio
 
             string Nombre = "Daniel";
 
+            int num1 = 22;
+            uint num2 = 22; // Variable enteger siempre positivo
+            float num3 = 22.0f; // Numero decimal
+            double num4 = 22.00; // Numero decimal mas grande que float
+            decimal num5 = 22.00m; // Numero decimal mucho mayor
+            byte num6 = 255; // Llega hasta el 255
+
+
             MessageBox.Show(Nombre); 
+            
 
             //ApplicationConfiguration.Initialize();
             //Application.Run(new Form1()); // Ejecuta el form principal
