@@ -12,7 +12,7 @@ namespace Proyecto_con_Windows_Forms
 
             string Nombre = "Daniel";
 
-            int num1 = 22;
+            int num1 = 22; // Entero
             uint num2 = 22; // Variable enteger siempre positivo
             float num3 = 22.0f; // Numero decimal
             double num4 = 22.00; // Numero decimal mas grande que float
@@ -20,8 +20,9 @@ namespace Proyecto_con_Windows_Forms
             byte num6 = 255; // Llega hasta el 255
 
 
-            MessageBox.Show(Nombre); 
-            
+            MessageBox.Show(Nombre);
+            MessageBox.Show(num1.ToString()); 
+
 
             //ApplicationConfiguration.Initialize();
             //Application.Run(new Form1()); // Ejecuta el form principal
