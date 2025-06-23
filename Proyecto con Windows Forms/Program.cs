@@ -23,11 +23,16 @@ namespace Proyecto_con_Windows_Forms
 
             DateTime fecha = DateTime.Now; //Dato de tipo fecha
 
+            const string dato = "Mi nombre es Daniel"; // Variable constante
+            //dato = dato + ", hola de nuevo"; Error a variable constante
+
+
 
             MessageBox.Show(Nombre);
             MessageBox.Show(num1.ToString());
             MessageBox.Show(acceso.ToString());
             MessageBox.Show(fecha.ToShortDateString().ToString());
+            MessageBox.Show(dato);
 
 
             //ApplicationConfiguration.Initialize();
