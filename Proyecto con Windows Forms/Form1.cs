@@ -18,7 +18,6 @@ namespace Proyecto_con_Windows_Forms
 
         private void Btn_OK_Click(object sender, EventArgs e)
         {
-
             try
             {
                 string txtBoxName = txt_Nombre.Text;
