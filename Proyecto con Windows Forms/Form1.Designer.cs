@@ -37,6 +37,7 @@
             btn_Confirm = new Button();
             lblConfirm = new Label();
             btn_Editar = new Button();
+            lblName = new Label();
             SuspendLayout();
             // 
             // Btn_OK
@@ -119,11 +120,21 @@
             btn_Editar.UseVisualStyleBackColor = true;
             btn_Editar.Click += button1_Click;
             // 
+            // lblName
+            // 
+            lblName.AutoSize = true;
+            lblName.Location = new Point(25, 31);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(54, 15);
+            lblName.TabIndex = 9;
+            lblName.Text = "Nombre:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(308, 431);
+            Controls.Add(lblName);
             Controls.Add(btn_Editar);
             Controls.Add(lblConfirm);
             Controls.Add(btn_Confirm);
@@ -150,5 +161,6 @@
         private Button btn_Confirm;
         private Label lblConfirm;
         private Button btn_Editar;
+        private Label lblName;
     }
 }
